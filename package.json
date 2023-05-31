@@ -4,9 +4,6 @@
     "scripts": {
       "test": "jest"
     },
-    "devDependencies": {
-      "jest": "^27.0.6"
-    },
     "engines": {
       "node": "14.x"
     }
