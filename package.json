@@ -2,9 +2,13 @@
     "name": "calculadora",
     "version": "1.0.0",
     "scripts": {
-      "test": "npx jest"
+      "test": "jest"
     },
     "devDependencies": {
       "jest": "^27.0.6"
+    },
+    "engines": {
+      "node": "14.x"
     }
   }
+  
