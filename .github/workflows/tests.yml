@@ -31,5 +31,5 @@ jobs:
       - name: Executar testes
         run: |
           echo "::group::Running Tests"
-          node test.js
+          node tests/test.js
           echo "::endgroup::"
