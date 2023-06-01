@@ -6,6 +6,11 @@ const { window } = new JSDOM(html);
 
 const displayResult = window.document.querySelector('input[name="displayResult"]');
 
+beforeEach(() => {
+  displayResult.value = '';
+});
+
+
 test('Addition', () => {
   calcNumbers('7');
   expect(displayResult.value).toBe('7');
